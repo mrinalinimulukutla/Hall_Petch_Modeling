@@ -1,0 +1,8 @@
+complexity,loss,equation
+1,6579.218,268.52063
+5,6435.1904,(ColdWork + ColdWork) / 0.40923667
+7,6132.7397,ColdWork + (ColdWork / (0.28146628 - delta))
+10,4265.0986,sqrt(square(dH_mix)) + (VEC + square(dH_mix - VEC))
+12,4073.7534,(square(sqrt(VEC)) + square(VEC - dH_mix)) + (VEC * 1.250578)
+13,3440.4846,(square(dH_mix - VEC) - sqrt(dS_mix + VEC)) + (Omega * VEC)
+14,3343.7976,(square(dH_mix - VEC) - (dS_mix + sqrt(square(dH_mix)))) + (Omega * VEC)

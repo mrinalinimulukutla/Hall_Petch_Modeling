@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Physics-informed ML for Hall-Petch strengthening in FCC high-entropy alloys"
+type: software
+authors:
+  - family-names: Mulukutla
+    given-names: Mrinalini
+    affiliation: "Texas A&M University"
+  - family-names: Padhy
+    given-names: Shakti Prasad
+    affiliation: "Texas A&M University"
+  - family-names: Xu
+    given-names: Wenle
+    affiliation: "Texas A&M University"
+  - family-names: Sahu
+    given-names: Bibhu Prasad
+    affiliation: "Texas A&M University"
+  - family-names: Karaman
+    given-names: Ibrahim
+    affiliation: "Texas A&M University"
+  - family-names: Arroyave
+    given-names: Raymundo
+    affiliation: "Texas A&M University"
+license: MIT
+keywords:
+  - high-entropy alloys
+  - Hall-Petch
+  - machine learning
+  - symbolic regression
+  - yield strength
+  - hardness
+  - cross-validation
+preferred-citation:
+  type: article
+  title: "Revisiting Hall-Petch strengthening in FCC high-entropy alloys: best practices for building and auditing machine-learning strength models"
+  authors:
+    - family-names: Mulukutla
+      given-names: Mrinalini
+    - family-names: Padhy
+      given-names: Shakti Prasad
+    - family-names: Xu
+      given-names: Wenle
+    - family-names: Sahu
+      given-names: Bibhu Prasad
+    - family-names: Karaman
+      given-names: Ibrahim
+    - family-names: Arroyave
+      given-names: Raymundo
+  journal: "Acta Materialia"
+  year: 2026
+  notes: "In preparation"

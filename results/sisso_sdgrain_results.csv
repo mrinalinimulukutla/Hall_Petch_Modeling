@@ -1,0 +1,3 @@
+Model,Target,Train_R2,LOO_R2,LOO_RMSE,LOBO_R2,BIC,k_eff,uses_SD_GS,Ext_R2,Ext_RMSE,n_ext,Singularity_safe,imputed_features,note,equation
+SISSO Full + SD_grain (YS),YS,0.7334,0.5601,53.8,0.429,712.82,4,True,-0.469,128.2,82,yes,SD_GS+ColdWork+RecrystT+HoldTime,, + 4084.6738232003*(EN_delta/Omega)  -0.2527124468*(mu_mean/d_inv_sqrt)   + 6.6960426955*(d_inv_sqrt*SD_GS)  +277.9048329463851
+SISSO Full + SD_grain (HV),HV,0.5561,-0.2783,37.76,-1.1877,601.4,4,True,-626332.8294,22580.5,25,no,SD_GS+ColdWork+RecrystT+HoldTime,"0 non-finite, 3 extreme (singularity)", + 1124.5274354591*(r_delta+d_inv_sqrt)   + 4.3629874106*(d_inv_sqrt*SD_GS)  -154.7177085729*(VEC_mean/SD_GS)  -39.24067883370961

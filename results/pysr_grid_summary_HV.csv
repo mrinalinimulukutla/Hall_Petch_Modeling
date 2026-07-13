@@ -1,0 +1,19 @@
+target,feature_set,op_set,selection,complexity,n_constants,fit_R2,cv_refit_5fold_R2,cv_refit_LOO_R2,cv_refit_LOBO_R2,equation
+HV,F1_grain,O1_add_sub,accuracy,15,1,0.008,-0.199,-0.014,-4.148,(d_inv_sqrt + d_inv_sqrt) + ((d_inv_sqrt + (d_inv_sqrt + d_inv_sqrt)) - (-132.80862 - (d_inv_sqrt + d_inv_sqrt)))
+HV,F1_grain,O1_add_sub,elbow,7,1,0.003,-0.203,-0.018,-4.159,(d_inv_sqrt + 133.42291) + (d_inv_sqrt + d_inv_sqrt)
+HV,F1_grain,O2_add_sub_mul_div,accuracy,15,4,0.599,0.441,0.574,-1.369,(164.48465 + ((-70.34916 / d_inv_sqrt) / (SD_GS * d_inv_sqrt))) - (d_inv_sqrt * (0.11585118 - 474.4583))
+HV,F1_grain,O2_add_sub_mul_div,elbow,3,1,0.001,-0.205,-0.02,-4.164,d_inv_sqrt + 133.73756
+HV,F1_grain,O3_full,accuracy,15,5,0.645,0.455,0.595,-1.02,(d_inv_sqrt * 666.6665) - ((((673.8217 / d_inv_sqrt) + -2184.297) / (SD_GS - 4.2915816)) + -118.43806)
+HV,F1_grain,O3_full,elbow,11,3,0.602,0.439,0.579,-1.151,233.06993 - ((((92.85704 / d_inv_sqrt) / d_inv_sqrt) + -954.3742) / SD_GS)
+HV,F2_full,O1_add_sub,accuracy,29,1,0.015,-0.192,-0.006,-4.13,((d_inv_sqrt + d_inv_sqrt) + (d_inv_sqrt + d_inv_sqrt)) + (d_inv_sqrt + (((d_inv_sqrt + d_inv_sqrt) + (((d_inv_sqrt + d_inv_sqrt) + (d_inv_sqrt + d_inv_sqrt)) + (d_inv_sqrt + 131.72397))) + (d_inv_sqrt + d_inv_sqrt)))
+HV,F2_full,O1_add_sub,elbow,15,1,0.008,-0.199,-0.014,-4.148,(d_inv_sqrt + d_inv_sqrt) + (d_inv_sqrt + ((d_inv_sqrt + d_inv_sqrt) + ((d_inv_sqrt + d_inv_sqrt) + 132.8127)))
+HV,F2_full,O2_add_sub_mul_div,accuracy,29,7,0.803,0.727,0.765,-0.147,(((((SD_GS / (SD_GS + 20.414543)) + -0.8562417) + ((3.777446 - Fe_frac) * d_inv_sqrt)) * 399.61395) - (3.777446 / (HoldTime + (-0.6069556 - Cu_frac)))) - (Co_frac / (V_frac + -0.12736847))
+HV,F2_full,O2_add_sub_mul_div,elbow,11,3,0.602,0.456,0.568,-1.227,ColdWork + (((-5.641735 / (SD_GS + 21.965664)) + d_inv_sqrt) * 1694.9694)
+HV,F2_full,O3_full,accuracy,29,3,0.782,0.704,0.771,0.219,(square(sqrt(V_frac) + Ni_frac) / square(cube(HoldTime))) + (HoldTime + (((((Mn_frac + (-65.5458 / SD_GS)) + -0.06490352) / square(d_inv_sqrt)) + 191.2205) + (square(d_inv_sqrt) * RecrystT)))
+HV,F2_full,O3_full,elbow,16,4,0.707,0.592,0.678,-0.476,(((-490.48193 / SD_GS) / d_inv_sqrt) + square((-0.6994826 / HoldTime) - (d_inv_sqrt * 57.644577))) + 145.8976
+HV,F3_wen,O1_add_sub,accuracy,29,1,0.107,-0.094,0.088,-4.44,((d_inv_sqrt + d_inv_sqrt) + ((dS_mix + ((((Omega - dH_mix) - dH_mix) - ((dH_mix + (dH_mix - Omega)) - d_inv_sqrt)) + (dS_mix + (d_inv_sqrt - dH_mix)))) - -65.44103)) + d_inv_sqrt
+HV,F3_wen,O1_add_sub,elbow,7,1,0.074,-0.132,0.054,-4.615,112.56627 - ((dH_mix + dH_mix) + dH_mix)
+HV,F3_wen,O2_add_sub_mul_div,accuracy,29,6,0.78,0.694,0.75,-0.447,(((d_inv_sqrt * ((d_inv_sqrt + delta) * 3218.9646)) + 207.109) - (6.405204 / delta_chi)) + ((((-523.1007 / d_inv_sqrt) / SD_GS) + (1.0523946 / (HoldTime + -0.45306608))) - (dH_mix + dS_mix))
+HV,F3_wen,O2_add_sub_mul_div,elbow,11,3,0.666,0.546,0.631,-0.874,((d_inv_sqrt + delta) * 1742.653) + (-8399.563 / (SD_GS + 17.258993))
+HV,F3_wen,O3_full,accuracy,30,6,0.758,0.503,0.693,-2.156,(((((sqrt(SD_GS) + (-0.52701336 / ((Omega * (HoldTime + -0.67619604)) / HoldTime))) - (delta_chi / -0.15803814)) * d_inv_sqrt) * (193.59132 - ((d_inv_sqrt - -0.0836253) * SD_GS))) + -52.199936) - dH_mix
+HV,F3_wen,O3_full,elbow,16,4,0.71,0.619,0.681,-2.786,(d_inv_sqrt * 121.22276) * ((sqrt(SD_GS) + ((-0.6045947 / Omega) / (HoldTime + -0.69436854))) - -1.4120882)

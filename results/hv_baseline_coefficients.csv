@@ -1,0 +1,8 @@
+parameter,value,units
+H_0,86.73968563507455,HV
+k_H,306.22843341193857,HV.um^(1/2)
+k_H_MPa,3003.1822464708816,MPa.um^(1/2)
+R2_train,0.16875194690745132,
+R2_LOO,0.13561772343698708,
+n_optimized,1.7276954323707419,(exponent in d^(-n))
+n_samples,94.0,

@@ -1,0 +1,5 @@
+complexity,loss,equation
+1,1115.1,133.88673
+7,1093.0233,(1089.7213 / VEC) + (dS_mix + -6.6308994)
+13,1070.6364,(((ColdWork + 76.21607) - (d_inv_sqrt / (delta_chi / dH_mix))) + -1.9969444) - Omega
+15,1038.1771,((((7.8763 / HoldTime) + ColdWork) + 65.27155) - (d_inv_sqrt / (delta_chi / dH_mix))) - Omega

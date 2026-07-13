@@ -1,0 +1,15 @@
+Engine,Target,FeatureSet,k_eff,LOO_R2,LOBO_R2,BIC,Ext_R2,Ext_RMSE,Singularity_safe,uses_SD_GS,equation
+SISSO,YS,F4 curated-Wen,4,0.4847,0.3469,709.0,-0.5396,131.2,yes,True, + 1112.6310260717*(delta_chi+d_inv_sqrt)   + 32.8216846138*(VEC/Omega)   + 6.0877695504*(d_inv_sqrt*SD_GS)  -166.79958369910446
+"PySR (O1_add_sub,accuracy)",YS,F4 curated-Wen,1,0.39,0.208,774.2,,124.3,yes,False,(((122.06335 - (dH_mix + dH_mix)) - (dH_mix + (((dH_mix + (dH_mix + (dH_mix + dH_mix))) + dH_mix) + dH_mix))) + (ColdWork - (dH_mix + dH_mix))) - (dH_mix + dH_mix)
+"PySR (O1_add_sub,elbow)",YS,F4 curated-Wen,1,0.29,0.068,788.3,,117.0,yes,False,((157.4268 - dH_mix) - ((dH_mix + (dH_mix + dH_mix)) + dH_mix)) + ((ColdWork - dH_mix) - (dH_mix + dH_mix))
+"PySR (O2_add_sub_mul_div,accuracy)",YS,F4 curated-Wen,6,0.662,-0.501,684.8,,121.7,yes,False,(((Omega / ((dS_mix - HoldTime) + -0.29368255)) + ((VEC + (d_inv_sqrt * 33.217888)) + ((-0.5995044 / delta_chi) - dH_mix))) * ((RecrystT * -0.010644188) + 25.50553)) - (-16.8922 / HoldTime)
+"PySR (O2_add_sub_mul_div,elbow)",YS,F4 curated-Wen,2,0.632,0.5,727.4,,133.3,yes,False,((0.31903812 / Omega) + d_inv_sqrt) * 1030.494
+"PySR (O3_full,accuracy)",YS,F4 curated-Wen,6,0.765,0.668,690.4,,120.4,yes,True,(SD_GS / sqrt(dS_mix + -8.273908)) + (((((Omega + (-15.149831 / d_inv_sqrt)) + (451.29092 + square(dH_mix))) + (2.4272852 / cube(HoldTime))) - (7.939107 / delta_chi)) - (0.10716921 * RecrystT))
+"PySR (O3_full,elbow)",YS,F4 curated-Wen,2,0.674,0.555,716.3,,128.4,yes,True,(SD_GS + 1016.481) * (d_inv_sqrt + (0.30557787 / Omega))
+SISSO,HV,F4 curated-Wen,4,-0.2007,-2.4115,610.7,0.1266,26.7,yes,True,-2.3228569328*(dH_mix/HoldTime)   + 23036.0319523650*(d_inv_sqrt/ColdWork)   + 4.4582582808*(d_inv_sqrt*SD_GS)  +25.8240356938351
+"PySR (O1_add_sub,accuracy)",HV,F4 curated-Wen,1,0.088,-4.44,653.5,,41.6,yes,False,((d_inv_sqrt + d_inv_sqrt) + ((dS_mix + ((((Omega - dH_mix) - dH_mix) - ((dH_mix + (dH_mix - Omega)) - d_inv_sqrt)) + (dS_mix + (d_inv_sqrt - dH_mix)))) - -65.44103)) + d_inv_sqrt
+"PySR (O1_add_sub,elbow)",HV,F4 curated-Wen,1,0.054,-4.615,656.9,,36.7,yes,False,112.56627 - ((dH_mix + dH_mix) + dH_mix)
+"PySR (O2_add_sub_mul_div,accuracy)",HV,F4 curated-Wen,6,0.75,-0.447,544.5,,19061.5,no,True,(((d_inv_sqrt * ((d_inv_sqrt + delta) * 3218.9646)) + 207.109) - (6.405204 / delta_chi)) + ((((-523.1007 / d_inv_sqrt) / SD_GS) + (1.0523946 / (HoldTime + -0.45306608))) - (dH_mix + dS_mix))
+"PySR (O2_add_sub_mul_div,elbow)",HV,F4 curated-Wen,3,0.631,-0.874,570.1,,75.2,yes,True,((d_inv_sqrt + delta) * 1742.653) + (-8399.563 / (SD_GS + 17.258993))
+"PySR (O3_full,accuracy)",HV,F4 curated-Wen,6,0.693,-2.156,553.5,,69.8,yes,True,(((((sqrt(SD_GS) + (-0.52701336 / ((Omega * (HoldTime + -0.67619604)) / HoldTime))) - (delta_chi / -0.15803814)) * d_inv_sqrt) * (193.59132 - ((d_inv_sqrt - -0.0836253) * SD_GS))) + -52.199936) - dH_mix
+"PySR (O3_full,elbow)",HV,F4 curated-Wen,4,0.681,-2.786,561.4,,51.4,yes,True,(d_inv_sqrt * 121.22276) * ((sqrt(SD_GS) + ((-0.6045947 / Omega) / (HoldTime + -0.69436854))) - -1.4120882)

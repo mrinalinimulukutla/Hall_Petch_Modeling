@@ -1,0 +1,51 @@
+{
+  "run_tag": "HV__F3_wen__O1_add_sub",
+  "target": "HV",
+  "feature_set": "F3_wen",
+  "op_set": "O1_add_sub",
+  "n_samples": 94,
+  "accuracy": {
+    "complexity": 29,
+    "equation": "((d_inv_sqrt + d_inv_sqrt) + ((dS_mix + ((((Omega - dH_mix) - dH_mix) - ((dH_mix + (dH_mix - Omega)) - d_inv_sqrt)) + (dS_mix + (d_inv_sqrt - dH_mix)))) - -65.44103)) + d_inv_sqrt",
+    "full_r2": 0.10738812801268527,
+    "cv": {
+      "5fold": {
+        "cv_r2": -0.09374254914243492,
+        "cv_mse": 1050.0733885560435,
+        "n_constants": 1
+      },
+      "LOO": {
+        "cv_r2": NaN,
+        "cv_mse": 1016.8720948458252,
+        "n_constants": 1
+      },
+      "LOBO": {
+        "cv_r2": -4.440195475485468,
+        "cv_mse": 1313.8158435576113,
+        "n_constants": 1
+      }
+    }
+  },
+  "elbow": {
+    "complexity": 7,
+    "equation": "112.56627 - ((dH_mix + dH_mix) + dH_mix)",
+    "full_r2": 0.07443043255300985,
+    "cv": {
+      "5fold": {
+        "cv_r2": -0.13216006835373292,
+        "cv_mse": 1085.9233376322952,
+        "n_constants": 1
+      },
+      "LOO": {
+        "cv_r2": NaN,
+        "cv_mse": 1054.4178141654766,
+        "n_constants": 1
+      },
+      "LOBO": {
+        "cv_r2": -4.6151852152720485,
+        "cv_mse": 1399.6427115029373,
+        "n_constants": 1
+      }
+    }
+  }
+}

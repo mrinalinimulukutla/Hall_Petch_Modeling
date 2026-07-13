@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {S1}Exploratory data analysis}{2}{section.1}%
+\contentsline {subsection}{\numberline {S1.1}Sample provenance and synthesis}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {S1.2}Property distributions and correlations}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {S2}Pre-modeling diagnostics}{3}{section.2}%
+\contentsline {section}{\numberline {S3}Solid-solution strengthening models: formulations and benchmarks}{4}{section.3}%
+\contentsline {subsection}{\numberline {S3.1}Varvenne--Leyson--Curtin (VLC)}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {S3.2}Labusch (weighted-average HEA extension)}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {S3.3}Toda-Caraballo--Rivera-D\'{i}az-del-Castillo}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {S3.4}Cantor-anchored benchmark}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {S4}Grain-size scaling laws: full results}{8}{section.4}%
+\contentsline {section}{\numberline {S5}Legacy 17-model panel, feature sets, and SHAP analysis}{9}{section.5}%
+\contentsline {section}{\numberline {S6}Symbolic regression: search details and expanded controls}{10}{section.6}%
+\contentsline {subsection}{\numberline {S6.1}SISSO configuration}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {S6.2}Expanded-search controls}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {S6.3}PySR grid summary}{12}{subsection.6.3}%
+\contentsline {section}{\numberline {S7}Hardness--yield correspondence: Tabor derivation, external source grades, and rank analysis}{13}{section.7}%
+\contentsline {subsection}{\numberline {S7.1}Tabor framework}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {S7.2}External-validation source grades}{13}{subsection.7.2}%
+\contentsline {subsection}{\numberline {S7.3}HV as a ranking proxy: full analysis}{14}{subsection.7.3}%
+\contentsline {section}{\numberline {S8}Model diagnostics and per-batch LOBO}{14}{section.8}%
+\contentsline {subsection}{\numberline {S8.1}M3 robustness}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {S8.2}Hall--Petch slope: literature context}{15}{subsection.8.2}%
+\contentsline {subsection}{\numberline {S8.3}Per-batch LOBO}{15}{subsection.8.3}%

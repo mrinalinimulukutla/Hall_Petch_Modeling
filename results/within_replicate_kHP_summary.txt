@@ -1,0 +1,44 @@
+========================================================================
+WITHIN-REPLICATE HALL-PETCH SLOPE ANALYSIS
+========================================================================
+n_total = 93 alloys (YS available)
+Median SD_YS = 4.3 MPa, rms SD_YS = 15.3 MPa
+
+Global HP fit (n=93):
+  σ_0   = 86.8 MPa
+  k_HP  = 1182 MPa·μm^(1/2),  SE = 143
+  R²    = 0.429,  p = 1.02e-12
+
+------------------------------------------------------------------------
+PER-GROUP HP FITS
+------------------------------------------------------------------------
+  G Composition (at%)              n   d range (μm)   k_local    SE(k)     σ_0  batches
+G1  0/4/4/0/4/4/72/12              4    30-40          -7428     1230    1634  CBB,CBC
+G2  0/8/8/0/32/8/40/4              2    25-118         +2302       41     -51  CBA
+G3  0/16/8/0/12/12/40/12           2    56-63           +260      908     221  CBA
+G4  0/20/4/0/8/8/40/20             2    27-35          +2377      342     -18  CBB
+G5  0/20/8/0/8/4/40/20             2    30-36          +9282     2402   -1301  CBB
+G6  0/36/8/0/8/12/28/8             3    23-188          +731      127     145  CBA
+G7  0/48/12/0/4/8/24/4             2    88-92          -8539     2976    1080  CBC
+G8  0/48/12/0/8/12/16/4            2    84-89          +6775     1084    -553  CBC
+G9  0/48/16/0/4/4/24/4             2    49-51          -2127     1471     499  CBC
+
+------------------------------------------------------------------------
+HETEROGENEITY TEST (Cochran's Q on per-group k_HP)
+------------------------------------------------------------------------
+
+Valid groups (d_range > 2 μm, finite SE): 9 of 9
+
+Fixed-effects pooled k_HP = 2144 ± 39 MPa·μm^(1/2)
+  (compare to global OLS k_HP = 1182)
+
+Cochran's Q = 251.47  on dof = 8,  p = 0.000
+I² = 96.8%   (<25% low, 25-50% moderate, 50-75% substantial, >75% high)
+  ⇒ SIGNIFICANT heterogeneity: k_HP varies more across compositions
+    than measurement noise predicts. Paper's k_HP-is-constant claim weakens.
+
+Observed range of k_local:  -8539 to 9282 MPa·μm^(1/2)
+Mean ± SD of k_local:       404 ± 5860
+Coefficient of variation:   1451.6%
+
+Saved: analysis_plots/74_within_replicate_kHP.png

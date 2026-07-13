@@ -1,0 +1,5 @@
+name,expression,denom_d^2_min_abs,denom_d^2_n_near_zero,denom_delta_chi_min_abs,denom_delta_chi_n_near_zero,denom_SD_grain_min_abs,denom_SD_grain_n_near_zero,denom_t_hold^2_min_abs,denom_t_hold^2_n_near_zero,sign_(6.93 - d)_n_neg,sign_(6.93 - d)_n_pos,note
+Compact_YS_equation,VEC * (4.29 * dH_mix * SD_grain / (d^2 * delta_chi) - 2.13 / delta_chi + 56.06),214.9156,0.0,0.074903671472098,0.0,,,,,,,
+Compact_HV_elbow,221.46 - 83.95 * (6.93 - d) / SD_grain + dH_mix / t_hold^2,,,,,8.32,0.0,0.25,0.0,94.0,0.0,
+SISSO_Full,sigma_y = 120.5 * (r_var/r_range) + 9356 * (d_inv_sqrt/dS_mix) + 1134 * (EN_var/delta_mu) - 43.3,,,,,,,,,,,Known pathology: delta_mu → 0 for similar-shear-modulus alloys
+SISSO_Robust,sigma_y = 113.0 * (sigma2_r / r_range) + 9837 * (d_inv_sqrt / dS_mix) + 5437 * (sigma2_chi - Phi_VLC) - 27.0,,,,,,,,,,,Bounded by construction (σ²_χ − Φ_VLC replaces ratio)

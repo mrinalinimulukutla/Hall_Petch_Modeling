@@ -1,0 +1,19 @@
+target,feature_set,op_set,selection,complexity,n_constants,fit_R2,cv_refit_5fold_R2,cv_refit_LOO_R2,cv_refit_LOBO_R2,equation
+YS,F1_grain,O1_add_sub,accuracy,15,1,0.042,0.031,0.021,-0.248,((d_inv_sqrt + (d_inv_sqrt - ((SD_GS - d_inv_sqrt) - d_inv_sqrt))) + 312.5573) + (d_inv_sqrt + d_inv_sqrt)
+YS,F1_grain,O1_add_sub,elbow,3,1,0.04,0.03,0.019,-0.251,313.47617 - SD_GS
+YS,F1_grain,O2_add_sub_mul_div,accuracy,15,5,0.526,0.432,0.467,0.227,((d_inv_sqrt * ((((SD_GS - -4.653256) * d_inv_sqrt) * 75.466446) - -1175.5422)) - -23.186834) + -0.31766254
+YS,F1_grain,O2_add_sub_mul_div,elbow,7,2,0.506,0.448,0.482,0.276,(1497.5161 - (SD_GS * -7.109719)) * d_inv_sqrt
+YS,F1_grain,O3_full,accuracy,14,3,0.588,0.439,0.487,0.187,square((cube(d_inv_sqrt) * (SD_GS + -11.320266)) * 54.111458) + (836.993 / log(SD_GS))
+YS,F1_grain,O3_full,elbow,4,1,0.413,0.379,0.399,0.205,-505.28387 / log(d_inv_sqrt)
+YS,F2_full,O1_add_sub,accuracy,29,1,0.074,0.03,0.054,-0.244,(Ni_frac + ((HoldTime + (Ni_frac + (ColdWork + Ni_frac))) - (Co_frac + (Co_frac - Ni_frac)))) + (((((ColdWork + HoldTime) + Ni_frac) + Ni_frac) + 99.15152) - (Co_frac - ColdWork))
+YS,F2_full,O1_add_sub,elbow,5,1,0.056,0.016,0.035,-0.281,ColdWork + (ColdWork + 159.48972)
+YS,F2_full,O2_add_sub_mul_div,accuracy,29,5,0.831,0.804,0.808,0.696,(Fe_frac * -146.99945) + (((((((d_inv_sqrt * ((SD_GS * Ni_frac) * d_inv_sqrt)) + Mn_frac) * 626.84564) + 176.8876) * (d_inv_sqrt + (Al_frac + d_inv_sqrt))) + (V_frac * 598.61566)) - -101.01924)
+YS,F2_full,O2_add_sub_mul_div,elbow,7,2,0.617,0.597,0.605,0.475,((V_frac + d_inv_sqrt) * 716.8919) + 99.14853
+YS,F2_full,O3_full,accuracy,30,5,0.831,0.817,0.808,0.689,((d_inv_sqrt + -0.018932948) * (cube(((square(d_inv_sqrt / (Cr_frac - -0.708624)) * SD_GS) + 10.076641) - (((square(Co_frac + Cu_frac) + Fe_frac) - V_frac) / d_inv_sqrt)) + -381.60318)) + 152.2916
+YS,F2_full,O3_full,elbow,6,2,0.62,0.607,0.604,0.496,(sqrt(d_inv_sqrt) + V_frac) * 574.41254
+YS,F3_wen,O1_add_sub,accuracy,29,1,0.403,0.384,0.39,0.208,(((122.06335 - (dH_mix + dH_mix)) - (dH_mix + (((dH_mix + (dH_mix + (dH_mix + dH_mix))) + dH_mix) + dH_mix))) + (ColdWork - (dH_mix + dH_mix))) - (dH_mix + dH_mix)
+YS,F3_wen,O1_add_sub,elbow,19,1,0.305,0.283,0.29,0.068,((157.4268 - dH_mix) - ((dH_mix + (dH_mix + dH_mix)) + dH_mix)) + ((ColdWork - dH_mix) - (dH_mix + dH_mix))
+YS,F3_wen,O2_add_sub_mul_div,accuracy,29,6,0.821,0.632,0.662,-0.501,(((Omega / ((dS_mix - HoldTime) + -0.29368255)) + ((VEC + (d_inv_sqrt * 33.217888)) + ((-0.5995044 / delta_chi) - dH_mix))) * ((RecrystT * -0.010644188) + 25.50553)) - (-16.8922 / HoldTime)
+YS,F3_wen,O2_add_sub_mul_div,elbow,7,2,0.656,0.633,0.632,0.5,((0.31903812 / Omega) + d_inv_sqrt) * 1030.494
+YS,F3_wen,O3_full,accuracy,30,6,0.81,0.704,0.765,0.668,(SD_GS / sqrt(dS_mix + -8.273908)) + (((((Omega + (-15.149831 / d_inv_sqrt)) + (451.29092 + square(dH_mix))) + (2.4272852 / cube(HoldTime))) - (7.939107 / delta_chi)) - (0.10716921 * RecrystT))
+YS,F3_wen,O3_full,elbow,9,2,0.695,0.672,0.674,0.555,(SD_GS + 1016.481) * (d_inv_sqrt + (0.30557787 / Omega))

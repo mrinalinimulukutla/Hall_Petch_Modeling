@@ -1,0 +1,51 @@
+{
+  "run_tag": "HV__F2_full__O2_add_sub_mul_div",
+  "target": "HV",
+  "feature_set": "F2_full",
+  "op_set": "O2_add_sub_mul_div",
+  "n_samples": 94,
+  "accuracy": {
+    "complexity": 29,
+    "equation": "(((((SD_GS / (SD_GS + 20.414543)) + -0.8562417) + ((3.777446 - Fe_frac) * d_inv_sqrt)) * 399.61395) - (3.777446 / (HoldTime + (-0.6069556 - Cu_frac)))) - (Co_frac / (V_frac + -0.12736847))",
+    "full_r2": 0.8030462778692835,
+    "cv": {
+      "5fold": {
+        "cv_r2": 0.7265749752006108,
+        "cv_mse": 260.44398350314276,
+        "n_constants": 7
+      },
+      "LOO": {
+        "cv_r2": NaN,
+        "cv_mse": 256.2774215784425,
+        "n_constants": 7
+      },
+      "LOBO": {
+        "cv_r2": -0.14743329685363674,
+        "cv_mse": 387.8183720664127,
+        "n_constants": 7
+      }
+    }
+  },
+  "elbow": {
+    "complexity": 11,
+    "equation": "ColdWork + (((-5.641735 / (SD_GS + 21.965664)) + d_inv_sqrt) * 1694.9694)",
+    "full_r2": 0.6022155645465412,
+    "cv": {
+      "5fold": {
+        "cv_r2": 0.45595448962120155,
+        "cv_mse": 485.7935666883535,
+        "n_constants": 3
+      },
+      "LOO": {
+        "cv_r2": NaN,
+        "cv_mse": 482.0628008965424,
+        "n_constants": 3
+      },
+      "LOBO": {
+        "cv_r2": -1.226759445316037,
+        "cv_mse": 676.4730352437799,
+        "n_constants": 3
+      }
+    }
+  }
+}

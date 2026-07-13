@@ -1,0 +1,49 @@
+Model,Family,Params,R2_5fold,LOO_R2,LOBO_R2,BIC,Ext_RMSE_MPa,Singularity_safe,Source
+Classical HP (refit),classical,2,0.4049422433053387,0.4059742025287975,0.372522561797923,,,yes,cv_comparison.csv
+Power-law HP (refit),classical,3,0.4009144301644611,0.3968622228766175,0.3578502800888654,,,yes,cv_comparison.csv
+Classical HP (refit),classical,2,0.0862000412452349,0.135617723436987,-0.077052478418907,,,yes,cv_comparison.csv
+Stacking (Ridge),linear,5,,0.6266043204367666,0.630380623573529,,,n/a,model_search_results.csv
+M3: σ₀(all elem),linear,9,0.66574825811178,0.6524897070240354,0.6245751564253905,,132.9368278894718,n/a,model_search_results.csv
+ElasticNet,linear,27,0.6622050696207142,0.6191376215915221,0.6200291843629162,,,n/a,model_search_results.csv
+Ridge,linear,27,0.6622301532394371,0.6163719273666723,0.6138672811152641,,,n/a,model_search_results.csv
+SVR (RBF),linear,18,0.6147613013710314,0.6373777321639416,0.4894117720086255,,,n/a,model_search_results.csv
+PCA-OLS (curated Wen + SD_grain),linear,7,0.5246116245131117,0.5158631202084728,0.4413735026797495,,,yes,pca_ols_results.csv
+OLS,linear,27,0.5594075204590268,0.5038384672155161,0.3303499669830733,,,n/a,model_search_results.csv
+GPR (Matern),linear,18,0.3593901254400622,0.4766545771437845,0.3054000666951998,,,n/a,model_search_results.csv
+Baseline (mean),linear,12,-0.0142042135301554,-0.0218572778827974,-0.1218096930677465,,,n/a,model_search_results.csv
+KRR (RBF),linear,18,-10.29962079625784,-10.416665568066986,-10.292532673171284,,,n/a,model_search_results.csv
+Average Ensemble,linear,5,,0.6688427665638474,,,,n/a,model_search_results.csv
+Compact YS equation (refit),symbolic,4,0.738308036706125,0.7297769082752912,0.6450069624948994,,,yes,cv_comparison.csv
+HV-elbow_F3O2_refit,symbolic,3,0.7254603456165952,0.7266350397876608,0.6356118499804639,,,yes,hardness_sr_results.csv
+PySR-YS-F3_wen_O3_full (elbow),symbolic,2,0.672,0.674,0.555,716.3,128.4,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-YS-F3_wen_O2_add_sub_mul_div (elbow),symbolic,2,0.633,0.632,0.5,727.4,133.3,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-YS-F2_full_O3_full (elbow),symbolic,2,0.607,0.604,0.496,736.7,107.7,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-YS-F2_full_O2_add_sub_mul_div (elbow),symbolic,2,0.597,0.605,0.475,737.4,113.8,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+SISSO Full + SD_grain (YS),symbolic,4,,0.5601,0.429,712.82,128.2,yes,sisso_sdgrain_results.csv
+SISSO σ₀(comp)+HP,symbolic,5,,0.5987605215424779,0.4025366769860831,724.5809021028865,,yes,sisso_results.csv
+SISSO Full,symbolic,4,,0.6650082153784909,0.3804566662097175,713.994814662861,420.6134128024645,no,sisso_results.csv
+SISSO Robust,symbolic,4,,0.6085598439907267,0.3581740674768041,716.5731238491178,162.9311854020294,yes,sisso_robust_comparison.csv
+PySR-YS-F1_grain_O2_add_sub_mul_div (elbow),symbolic,2,0.448,0.482,0.276,761.1,168.3,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+SISSO k_HP(comp),symbolic,5,,0.6188441928336214,0.2658829642300121,725.7473610028848,,yes,sisso_results.csv
+PySR-YS-F1_grain_O3_full (elbow),symbolic,1,0.379,0.399,0.205,772.6,158.3,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-YS-F3_wen_O1_add_sub (elbow),symbolic,1,0.283,0.29,0.068,788.3,117.0,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-YS-F1_grain_O1_add_sub (elbow),symbolic,1,0.03,0.019,-0.251,818.4,111.5,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-YS-F2_full_O1_add_sub (elbow),symbolic,1,0.016,0.035,-0.281,816.8,107.7,yes,pysr_grid_summary_YS.csv + pysr_external_validation.csv
+PySR-HV-F2_full_O3_full (elbow),symbolic,4,0.592,0.678,-0.476,562.4,17895.2,no,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F3_wen_O2_add_sub_mul_div (elbow),symbolic,3,0.546,0.631,-0.874,570.1,75.2,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F1_grain_O3_full (elbow),symbolic,3,0.439,0.579,-1.151,586.6,9944.0,no,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+SISSO Full + SD_grain (HV),symbolic,4,,-0.2783,-1.1877,601.4,22580.5,no,sisso_sdgrain_results.csv
+PySR-HV-F2_full_O2_add_sub_mul_div (elbow),symbolic,3,0.456,0.568,-1.227,586.6,97.2,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F3_wen_O3_full (elbow),symbolic,4,0.619,0.681,-2.786,561.4,51.4,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F2_full_O1_add_sub (elbow),symbolic,1,-0.199,-0.014,-4.148,663.4,31.8,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F1_grain_O1_add_sub (elbow),symbolic,1,-0.203,-0.018,-4.159,663.8,32.3,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F1_grain_O2_add_sub_mul_div (elbow),symbolic,1,-0.205,-0.02,-4.164,664.0,32.5,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+PySR-HV-F3_wen_O1_add_sub (elbow),symbolic,1,-0.132,0.054,-4.615,656.9,36.7,yes,pysr_grid_summary_HV.csv + pysr_external_validation.csv
+HV-elbow_F3O2,symbolic,3,,,,,,yes,hardness_sr_results.csv
+HV-accuracy_F3O3,symbolic,3,,,,,,no,hardness_sr_results.csv
+Random Forest,tree,46,0.6359770442139466,0.643452493804116,0.58543459546124,,,n/a,model_search_results.csv
+XGBoost,tree,46,0.6357384668872761,0.6454652877219472,0.5769998002449314,,,n/a,model_search_results.csv
+CatBoost,tree,46,0.641553451397,0.6462710442896699,0.5642781562995978,,,n/a,model_search_results.csv
+CatBoost-compact,tree,18,0.6283129215264023,0.6373635922841554,0.5426789204586429,,,n/a,model_search_results.csv
+LightGBM,tree,46,0.5864704430799272,0.6092473486066694,0.539875936820146,,,n/a,model_search_results.csv
+XGBoost-compact,tree,18,0.6146139173008117,0.600636710268103,0.5371885713168715,,,n/a,model_search_results.csv

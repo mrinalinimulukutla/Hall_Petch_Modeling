@@ -1,0 +1,81 @@
+"""Shared path configuration for all analysis scripts.
+
+Every script under scripts/ imports REPO_ROOT, DATA_DIR, RESULTS_DIR, etc.
+from this module, so the entire repo can be moved or cloned without editing
+any individual script.
+
+Scripts are organized hierarchically by analysis tier (the "staircase" of
+the paper: grain size -> SSS descriptors -> composition -> non-linear ML ->
+symbolic regression, plus the validation floor and the hardness/Tabor
+synthesis). Importing this module also appends every scripts/ subdirectory
+to sys.path, so cross-script imports (e.g. ``from external_validation
+import ...``) keep working regardless of which tier folder a script lives in.
+
+Convention:
+    DATA_DIR / 'data_with_descriptors.csv'        # derived features
+    RAW_DATA_DIR / 'Grain_Size_Summary_v3.xlsx'   # raw experimental data
+    RESULTS_DIR / 'sisso_results.csv'             # output of analysis scripts
+    PLOTS_DIR / '57_sisso_full_parity.png'        # analysis figures
+    PAPER_FIG_DIR / 'fig08_symbolic_pareto.png'   # publication figures
+"""
+import sys
+from pathlib import Path
+
+# Repo root = parent of scripts/
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+DATA_DIR       = REPO_ROOT / 'data' / 'derived'
+RAW_DATA_DIR   = REPO_ROOT / 'data' / 'raw'
+RESULTS_DIR    = REPO_ROOT / 'results'
+PLOTS_DIR      = REPO_ROOT / 'analysis_plots'
+NOTEBOOK_DIR   = REPO_ROOT / 'notebook'
+PAPER_DIR      = REPO_ROOT / 'paper'
+PAPER_FIG_DIR  = REPO_ROOT / 'paper' / 'figures'
+REPORT_DIR     = REPO_ROOT / 'report'
+DOCS_DIR       = REPO_ROOT / 'docs'
+
+SCRIPTS_DIR    = REPO_ROOT / 'scripts'
+
+# Tier folders, in pipeline order.
+SCRIPT_SUBDIRS = [
+    '00_data_preparation',
+    '01_tier1_grain_size',
+    '02_tier2_sss_descriptors',
+    '03_tier3_composition_hp',
+    '04_tier4_nonlinear_ml',
+    '05_tier5_symbolic_regression',
+    '06_validation_floor',
+    '07_hardness_tabor',
+    'figures',
+]
+
+# Make every tier folder importable so scripts can import each other
+# (e.g. sisso_robust.py imports descriptor tables from external_validation.py).
+for _sub in SCRIPT_SUBDIRS:
+    _p = SCRIPTS_DIR / _sub
+    if _p.is_dir() and str(_p) not in sys.path:
+        sys.path.append(str(_p))
+
+
+def find_script(name):
+    """Return the Path of a script by filename, searching all tier folders.
+
+    Accepts 'sisso_analysis.py' or 'sisso_analysis'. Raises FileNotFoundError
+    if the script does not exist anywhere under scripts/.
+    """
+    if not name.endswith('.py'):
+        name += '.py'
+    direct = SCRIPTS_DIR / name
+    if direct.exists():
+        return direct
+    for hit in sorted(SCRIPTS_DIR.rglob(name)):
+        return hit
+    raise FileNotFoundError(f'{name} not found under {SCRIPTS_DIR}')
+
+
+# Ensure output dirs exist when a fresh clone is run
+for d in (RESULTS_DIR, PLOTS_DIR):
+    d.mkdir(parents=True, exist_ok=True)
+
+# Backward-compatibility string alias (some scripts use f'{BASE}/...')
+BASE = str(REPO_ROOT)

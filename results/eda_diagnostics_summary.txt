@@ -1,0 +1,102 @@
+========================================================================
+PRE-MODELING EDA DIAGNOSTICS — Hall-Petch HEA dataset
+========================================================================
+Loaded 93 alloys with YS, 6 batches.
+
+[1] COMPOSITION x GRAIN-SIZE CONFOUNDING
+------------------------------------------------------------------------
+Saved: analysis_plots/71_comp_gs_confounding.png
+
+ Element   Pearson r          p  Spearman ρ        p_s
+      Al      -0.323   1.58e-03      -0.364   3.34e-04 ***
+      Co      +0.172   9.88e-02      +0.216   3.73e-02
+      Cr      +0.375   2.09e-04      +0.554   8.44e-09 ***
+      Cu      -0.212   4.11e-02      -0.280   6.54e-03
+      Fe      +0.115   2.72e-01      +0.038   7.20e-01
+      Mn      -0.108   3.02e-01      -0.113   2.83e-01
+      Ni      -0.138   1.87e-01      -0.152   1.45e-01
+       V      -0.242   1.93e-02      -0.243   1.92e-02
+(*** = |r| > 0.3, suggests non-trivial composition-grain-size correlation)
+
+Joint regression: R²(GrainSize ~ all 8 comp fractions) = 0.259
+                  R²(d^(-1/2)  ~ all 8 comp fractions) = 0.399
+  → 39.9% of d^(-1/2) variance is predictable from composition.
+  → Implied VIF(d^(-1/2) | comp) ≈ 1.7
+  → Higher value ⇒ weaker identifiability of σ₀(comp) vs k_HP·d^(-1/2) split.
+
+With processing added: R²(d^(-1/2) ~ comp + proc) = 0.539
+  → 46.1% of d^(-1/2) variance is genuinely independent of comp+proc.
+
+
+[2] BATCH × COMPOSITION COVERAGE
+------------------------------------------------------------------------
+PCA explained variance: ['0.329', '0.229', '0.135', '0.135', '0.095', '0.046', '0.031', '0.000']
+Cumulative:             ['0.329', '0.558', '0.693', '0.828', '0.923', '0.969', '1.000', '1.000']
+Effective dimensionality (≥95% var): 6 of 8
+Saved: analysis_plots/72_batch_pca_coverage.png
+
+Mean off-diagonal overlap: 0.21
+  (1.0 = batches fully overlap in composition PCA;
+   0   = fully disjoint -> LOBO is genuine extrapolation)
+
+Per-batch worst-case coverage when held out:
+   Held-out      max(P inside other hulls)
+        BBA                           0.59
+        BBB                           0.33
+        BBC                           0.75
+        CBA                           0.87
+        CBB                           0.80
+        CBC                           0.29
+  → Low value ⇒ when this batch is held out (LOBO), its composition region
+    is poorly covered by training batches.
+
+
+[3] PSEUDO-REPLICATE & MEASUREMENT-NOISE VARIANCE FLOOR
+------------------------------------------------------------------------
+Unique compositions: 81
+  - singletons (1 alloy):  72
+  - replicate groups (≥2): 9  containing 21 alloys
+  - pseudo-replicate fraction: 22.6%
+
+Variance decomposition:
+  Total YS variance σ²_total = 6651 MPa²  (SD = 81.6 MPa)
+  Pooled within-comp variance σ²_w = 6979 MPa²  (SD = 83.5 MPa)
+  Mean per-alloy measurement variance ⟨SD_YS²⟩ = 234 MPa²
+    (rms of SD_YS = 15.3 MPa, n=80 alloys with SD_YS reported)
+
+R² ceilings:
+  Composition-only model:         R² ≤ 0.863
+    (1 − σ²_within / σ²_total — within-comp variance includes HP grain-size effect)
+  Composition + grain-size model: R² ≤ 0.965
+    (1 − ⟨SD_YS²⟩ / σ²_total — pure measurement-noise floor)
+
+Reality check vs. paper:
+  XGBoost LOO R² = 0.729   →  76% of full-model ceiling
+  M3 LOO R²      = 0.652   →  68% of full-model ceiling
+  SISSO LOO R²   = 0.671   →  70% of full-model ceiling
+Saved: analysis_plots/73_pseudoreplicate_variance.png
+
+
+========================================================================
+SUMMARY
+========================================================================
+[1] Strongest composition × grain-size correlations:
+      Cr: Pearson r=+0.38 (p=0.00021)
+      Al: Pearson r=-0.32 (p=0.0016)
+      V: Pearson r=-0.24 (p=0.019)
+    Joint R²(d^(-1/2) ~ comp)         = 0.399
+    Joint R²(d^(-1/2) ~ comp + proc)  = 0.539
+    ⇒ ~54% of d^(-1/2) variance is captured by composition+processing,
+      so the σ₀(comp) vs k_HP·d^(-1/2) split has limited identifiability.
+
+[2] Batch coverage in composition PCA:
+    Mean off-diagonal hull overlap = 0.21  (0=disjoint, 1=identical)
+    Effective dim. of comp space (≥95% var) = 6 of 8
+    ⇒ See heatmap (fig 72) for which batches are reachable from which.
+
+[3] R² ceilings:
+    Composition-only models:   ≤ 0.863
+    Composition + grain size:  ≤ 0.965  (measurement-noise floor)
+    ⇒ XGBoost (0.729) is at 76% of the noise floor.
+    Pseudo-replicate fraction = 22.6%
+========================================================================

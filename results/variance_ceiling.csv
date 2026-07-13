@@ -1,0 +1,2 @@
+n_alloys,n_unique_comp,n_singletons,n_replicated_groups,var_total_YS,var_within_composition,mean_SD_YS_sq,R2_composition_ceiling,R2_noise_ceiling
+93,81,72,9,6650.7312668062095,6978.744747018199,234.1800639036215,-0.0493199119094021,0.9647888247909799

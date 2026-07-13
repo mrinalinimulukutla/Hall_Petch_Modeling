@@ -1,0 +1,51 @@
+{
+  "run_tag": "YS__F2_full__O3_full",
+  "target": "YS",
+  "feature_set": "F2_full",
+  "op_set": "O3_full",
+  "n_samples": 93,
+  "accuracy": {
+    "complexity": 30,
+    "equation": "((d_inv_sqrt + -0.018932948) * (cube(((square(d_inv_sqrt / (Cr_frac - -0.708624)) * SD_GS) + 10.076641) - (((square(Co_frac + Cu_frac) + Fe_frac) - V_frac) / d_inv_sqrt)) + -381.60318)) + 152.2916",
+    "full_r2": 0.8310730593635736,
+    "cv": {
+      "5fold": {
+        "cv_r2": 0.817304911156129,
+        "cv_mse": 1166.3574492095727,
+        "n_constants": 5
+      },
+      "LOO": {
+        "cv_r2": NaN,
+        "cv_mse": 1192.882102589748,
+        "n_constants": 5
+      },
+      "LOBO": {
+        "cv_r2": 0.688691098998443,
+        "cv_mse": 1797.5416052445646,
+        "n_constants": 5
+      }
+    }
+  },
+  "elbow": {
+    "complexity": 6,
+    "equation": "(sqrt(d_inv_sqrt) + V_frac) * 574.41254",
+    "full_r2": 0.619879410455902,
+    "cv": {
+      "5fold": {
+        "cv_r2": 0.6072586673405957,
+        "cv_mse": 2615.5820614761788,
+        "n_constants": 2
+      },
+      "LOO": {
+        "cv_r2": NaN,
+        "cv_mse": 2604.2586994978014,
+        "n_constants": 2
+      },
+      "LOBO": {
+        "cv_r2": 0.49621179872087245,
+        "cv_mse": 2469.8948218664495,
+        "n_constants": 2
+      }
+    }
+  }
+}
