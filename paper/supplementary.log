@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  9 JUL 2026 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  14 JUL 2026 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,7 +444,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (11.62195pt too wide) in paragraph at lines 42--43
+Overfull \hbox (11.62195pt too wide) in paragraph at lines 39--40
 []\T1/cmr/m/n/10.95 The sec-ond con-tribut-ing cam-paign (batches CBA, CBB, CBC
 ; 59 al-loys, $[]\OT1/cmr/m/n/10.95 63%$\T1/cmr/m/n/10.95 ) is a microstructure
 -
@@ -454,67 +454,67 @@ Overfull \hbox (11.62195pt too wide) in paragraph at lines 42--43
 File: figures//composition_microstructure.png Graphic file (type png)
 <use figures//composition_microstructure.png>
 Package pdftex.def Info: figures//composition_microstructure.png  used on input
- line 48.
+ line 45.
 (pdftex.def)             Requested size: 399.29463pt x 373.06781pt.
 <figures//fig_provenance.png, id=141, 919.63576pt x 420.6114pt>
 File: figures//fig_provenance.png Graphic file (type png)
 <use figures//fig_provenance.png>
-Package pdftex.def Info: figures//fig_provenance.png  used on input line 55.
+Package pdftex.def Info: figures//fig_provenance.png  used on input line 52.
 (pdftex.def)             Requested size: 469.75502pt x 214.84914pt.
 <figures//fig_property_histograms.png, id=145, 716.1957pt x 712.94354pt>
 File: figures//fig_property_histograms.png Graphic file (type png)
 <use figures//fig_property_histograms.png>
 Package pdftex.def Info: figures//fig_property_histograms.png  used on input li
-ne 70.
+ne 63.
 (pdftex.def)             Requested size: 328.82707pt x 327.32704pt.
 <figures//tensile_tests.png, id=146, 407.48235pt x 237.7683pt>
 File: figures//tensile_tests.png Graphic file (type png)
 <use figures//tensile_tests.png>
-Package pdftex.def Info: figures//tensile_tests.png  used on input line 77.
+Package pdftex.def Info: figures//tensile_tests.png  used on input line 70.
 (pdftex.def)             Requested size: 328.82707pt x 191.87653pt.
 <figures//fig02_correlation_matrix.png, id=147, 1156.32pt x 1011.78pt>
 File: figures//fig02_correlation_matrix.png Graphic file (type png)
 <use figures//fig02_correlation_matrix.png>
 Package pdftex.def Info: figures//fig02_correlation_matrix.png  used on input l
-ine 84.
+ine 77.
 (pdftex.def)             Requested size: 352.31625pt x 308.27596pt.
 [2] [3 <./figures//composition_microstructure.png>]
 <figures//fig_premodel_hulls_heatmap.png, id=177, 784.49084pt x 315.8199pt>
 File: figures//fig_premodel_hulls_heatmap.png Graphic file (type png)
 <use figures//fig_premodel_hulls_heatmap.png>
 Package pdftex.def Info: figures//fig_premodel_hulls_heatmap.png  used on input
- line 113.
+ line 95.
 (pdftex.def)             Requested size: 469.75502pt x 189.11751pt.
  [4 <./figures//fig_provenance.png>] [5 <./figures//fig_property_histograms.png
 >]
 <figures//fig_sss_parity.png, id=210, 319.4334pt x 329.91255pt>
 File: figures//fig_sss_parity.png Graphic file (type png)
 <use figures//fig_sss_parity.png>
-Package pdftex.def Info: figures//fig_sss_parity.png  used on input line 215.
+Package pdftex.def Info: figures//fig_sss_parity.png  used on input line 188.
 (pdftex.def)             Requested size: 281.85587pt x 291.12436pt.
  [6 <./figures//tensile_tests.png>] [7 <./figures//fig02_correlation_matrix.png
 >]
 <figures//fig_scaling_fits.png, id=245, 345.08925pt x 315.45856pt>
 File: figures//fig_scaling_fits.png Graphic file (type png)
 <use figures//fig_scaling_fits.png>
-Package pdftex.def Info: figures//fig_scaling_fits.png  used on input line 318.
+Package pdftex.def Info: figures//fig_scaling_fits.png  used on input line 285.
 
 (pdftex.def)             Requested size: 258.36668pt x 236.19862pt.
 <figures//fig_scaling_deltabic.png, id=246, 345.08925pt x 315.0972pt>
 File: figures//fig_scaling_deltabic.png Graphic file (type png)
 <use figures//fig_scaling_deltabic.png>
 Package pdftex.def Info: figures//fig_scaling_deltabic.png  used on input line 
-325.
+292.
 (pdftex.def)             Requested size: 258.36668pt x 235.92805pt.
 <figures//fig_bayesian_n.png, id=247, 739.76375pt x 775.89874pt>
 File: figures//fig_bayesian_n.png Graphic file (type png)
 <use figures//fig_bayesian_n.png>
-Package pdftex.def Info: figures//fig_bayesian_n.png  used on input line 332.
+Package pdftex.def Info: figures//fig_bayesian_n.png  used on input line 299.
 (pdftex.def)             Requested size: 258.36668pt x 270.98851pt.
 <figures//fig_bayesian_bma.png, id=248, 714.5094pt x 497.2176pt>
 File: figures//fig_bayesian_bma.png Graphic file (type png)
 <use figures//fig_bayesian_bma.png>
-Package pdftex.def Info: figures//fig_bayesian_bma.png  used on input line 339.
+Package pdftex.def Info: figures//fig_bayesian_bma.png  used on input line 306.
 
 (pdftex.def)             Requested size: 258.36668pt x 179.79482pt.
  [8 <./figures//fig_premodel_hulls_heatmap.png>] [9 <./figures//fig_sss_parity.
@@ -522,17 +522,17 @@ png>]
 <figures//fig07_shap_summary.png, id=270, 555.9972pt x 678.8562pt>
 File: figures//fig07_shap_summary.png Graphic file (type png)
 <use figures//fig07_shap_summary.png>
-Package pdftex.def Info: figures//fig07_shap_summary.png  used on input line 38
-8.
+Package pdftex.def Info: figures//fig07_shap_summary.png  used on input line 34
+6.
 (pdftex.def)             Requested size: 281.85587pt x 344.15074pt.
  [10]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-08.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [11 <./figures//fig_scaling_fits.png>]
-Overfull \hbox (14.29369pt too wide) in paragraph at lines 443--443
+Overfull \hbox (14.29369pt too wide) in paragraph at lines 391--391
 []\T1/cmr/bx/n/14.4 Hardness--yield cor-re-spon-dence: Ta-bor deriva-tion, ex-t
 er-nal source
  []
@@ -541,7 +541,7 @@ er-nal source
 <figures//fig_hv_ys_rank.png, id=316, 349.42545pt x 346.53465pt>
 File: figures//fig_hv_ys_rank.png Graphic file (type png)
 <use figures//fig_hv_ys_rank.png>
-Package pdftex.def Info: figures//fig_hv_ys_rank.png  used on input line 477.
+Package pdftex.def Info: figures//fig_hv_ys_rank.png  used on input line 415.
 (pdftex.def)             Requested size: 281.85587pt x 279.53352pt.
 [14 <./figures//fig_bayesian_bma.png>] (./supplementary.bbl [15 <./figures//fig
 07_shap_summary.png>] [16] [17 <./figures//fig_hv_ys_rank.png>] [18]) [19]
@@ -552,11 +552,11 @@ Package rerunfilecheck Info: File `supplementary.out' has not changed.
 Here is how much of TeX's memory you used:
  10631 strings out of 480247
  164775 string characters out of 5896152
- 474371 words of memory out of 5000000
+ 473371 words of memory out of 5000000
  28303 multiletter control sequences out of 15000+600000
  490070 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,13n,63p,843b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,63p,1614b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
  </sessions/epic-beautiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ectt1095.600pk> </sessions/epic-beautiful-pascal/.texlive2021/texmf-var
 /fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </sessions/epic-beautiful-pascal/.
@@ -583,9 +583,9 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on supplementary.pdf (19 pages, 5089815 bytes).
+Output written on supplementary.pdf (19 pages, 5090259 bytes).
 PDF statistics:
- 955 PDF objects out of 1000 (max. 8388607)
+ 956 PDF objects out of 1000 (max. 8388607)
  395 compressed objects within 4 object streams
  97 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)

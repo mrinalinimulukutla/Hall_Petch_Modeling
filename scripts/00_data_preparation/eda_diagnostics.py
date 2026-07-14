@@ -41,7 +41,7 @@ DATA_CSV = f"{DATA_DIR}/data_with_descriptors.csv"
 
 ELEMENTS = ["Al", "Co", "Cr", "Cu", "Fe", "Mn", "Ni", "V"]
 BATCHES = ["BBA", "BBB", "BBC", "CBA", "CBB", "CBC"]
-BATCH_COLORS = dict(zip(BATCHES, plt.cm.tab10(np.linspace(0, 1, len(BATCHES)))))
+BATCH_COLORS = dict(zip(BATCHES, ['#D55E00', '#0072B2', '#009E73', '#CC79A7', '#E69F00', '#56B4E9']))  # Okabe-Ito (colorblind-safe)
 
 df = pd.read_csv(DATA_CSV)
 df = df.dropna(subset=["YS"]).reset_index(drop=True)

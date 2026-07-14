@@ -65,7 +65,7 @@ fy = 0.55
 floor = FancyBboxPatch((0.5, fy), 11.2, 0.55, boxstyle='round,pad=0.02,rounding_size=0.06',
                        linewidth=0, facecolor=NAVY)
 ax.add_patch(floor)
-ax.text(6.1, fy + 0.275, 'VALIDATION FLOOR   5-fold  →  LOO  →  LOCO (cluster-out)  →  external  +  singularity audit',
+ax.text(6.1, fy + 0.275, 'VALIDATION FLOOR   5-fold  →  LOO  →  LOBO (batch-out)  →  external  +  singularity audit',
         ha='center', va='center', fontsize=10, color='white', weight='bold')
 
 # ----- right-hand pillars/guardrails panel -----

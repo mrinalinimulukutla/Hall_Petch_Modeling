@@ -29,7 +29,7 @@ for ax, tgt in zip(axes, ['YS', 'HV']):
     piv = rdf.pivot_table(index='Model', columns='FeatureSet', values='R2_LOBO').reindex(columns=LADDER)
     order = rdf.groupby('Model')['R2_LOBO'].max().sort_values(ascending=False).index.tolist()
     piv = piv.reindex(order)
-    im = ax.imshow(piv.values, cmap='RdYlGn', vmin=0, vmax=0.8, aspect='auto')
+    im = ax.imshow(piv.values, cmap='viridis', vmin=0, vmax=0.8, aspect='auto')
     ax.set_xticks(range(piv.shape[1]))
     ax.set_xticklabels([SET_LABEL[c] for c in piv.columns], fontsize=10)
     ax.set_yticks(range(piv.shape[0])); ax.set_yticklabels(piv.index, fontsize=10)
@@ -42,7 +42,7 @@ for ax, tgt in zip(axes, ['YS', 'HV']):
             if np.isfinite(v):
                 ax.text(j, i, f'{v:.2f}', ha='center', va='center', fontsize=8,
                         color='black' if v > 0.3 else 'white')
-    ax.set_title(f'{tgt}: cross-cluster (LOBO) R²\nblue = linear models, red = non-linear', fontsize=12, weight='bold')
+    ax.set_title(f'{tgt}: cross-cluster (LOBO) R²\nblue = linear models, orange = non-linear', fontsize=12, weight='bold')
     fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04, label='LOBO R²')
 plt.tight_layout()
 out = f'{PLOTS_DIR}/fair_comparison_LOBO_heatmap.png'

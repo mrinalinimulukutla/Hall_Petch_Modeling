@@ -1,7 +1,7 @@
 # Physics-Informed ML for Hall–Petch Strengthening in FCC High-Entropy Alloys
 
 Companion repository for the manuscript *"Revisiting Hall–Petch strengthening
-in FCC high-entropy alloys: best practices for building and auditing
+in FCC high-entropy alloys: Best practices for building and auditing
 machine-learning strength models"* (Acta Materialia, in preparation).
 
 We model yield strength (YS) and Vickers hardness (HV) of 94 FCC high-entropy

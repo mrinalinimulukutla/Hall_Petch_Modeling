@@ -158,3 +158,4 @@ figures:  ## Regenerate paper figures from cached CSVs (fast)
 	$(PY) $(S)/figures/make_cv_comparison_figure.py
 	$(PY) $(S)/figures/make_pysr_sisso_pareto.py
 	$(PY) $(S)/figures/replot_fair_comparison_heatmap.py
+	$(PY) $(S)/figures/make_graphical_abstract.py

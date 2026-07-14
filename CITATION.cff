@@ -32,7 +32,7 @@ keywords:
   - cross-validation
 preferred-citation:
   type: article
-  title: "Revisiting Hall-Petch strengthening in FCC high-entropy alloys: best practices for building and auditing machine-learning strength models"
+  title: "Revisiting Hall-Petch strengthening in FCC high-entropy alloys: Best practices for building and auditing machine-learning strength models"
   authors:
     - family-names: Mulukutla
       given-names: Mrinalini

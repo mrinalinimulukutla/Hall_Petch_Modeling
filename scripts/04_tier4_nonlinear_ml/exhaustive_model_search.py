@@ -40,8 +40,8 @@ from _config import REPO_ROOT, DATA_DIR, RAW_DATA_DIR, RESULTS_DIR, PLOTS_DIR, P
 BASE = str(REPO_ROOT)
 PLOT_DIR = f'{PLOTS_DIR}'
 ELEMENTS = ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'Mn', 'Ni', 'V']
-BATCH_COLORS = {'BBA': '#E74C3C', 'BBB': '#3498DB', 'BBC': '#2ECC71',
-                'CBA': '#9B59B6', 'CBB': '#F39C12', 'CBC': '#1ABC9C'}
+BATCH_COLORS = {'BBA': '#D55E00', 'BBB': '#0072B2', 'BBC': '#009E73',
+                'CBA': '#CC79A7', 'CBB': '#E69F00', 'CBC': '#56B4E9'}
 
 t0_global = time.time()
 

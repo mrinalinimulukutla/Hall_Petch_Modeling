@@ -417,7 +417,7 @@ print("  Saved 34_bayesian_exponent.png")
 fig, ax = plt.subplots(figsize=(10, 6))
 names = list(comparison.index)
 wts = [comparison.loc[n, 'weight'] for n in names]
-colors = ['#2ecc71' if w > 0.1 else '#f39c12' if w > 0.01 else '#e74c3c' for w in wts]
+colors = ['#009E73' if w > 0.1 else '#E69F00' if w > 0.01 else '#D55E00' for w in wts]
 bars = ax.barh(range(len(names)), wts, color=colors, edgecolor='black', linewidth=0.5)
 ax.set_yticks(range(len(names)))
 ax.set_yticklabels(names, fontsize=11)

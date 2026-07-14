@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  9 JUL 2026 09:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  14 JUL 2026 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,24 +338,24 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
@@ -378,7 +378,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -391,21 +391,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count294
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -415,100 +415,86 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (142.03113pt too wide) in paragraph at lines 58--58
+Overfull \hbox (142.03113pt too wide) in paragraph at lines 70--70
  [][] 
  []
 
-
-Underfull \vbox (badness 1242) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 75--83
-\T1/cmr/m/n/10 stan-tially ex-ceed pure-FCC values---e.g., $\OML/cmm/m/it/10 k[
-] \OMS/cmsy/m/n/10 ^^Y
- []
+[2
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 75--83
+]
+<figures//fig_graphical_abstract.png, id=102, 1053.6966pt x 358.941pt>
+File: figures//fig_graphical_abstract.png Graphic file (type png)
+<use figures//fig_graphical_abstract.png>
+Package pdftex.def Info: figures//fig_graphical_abstract.png  used on input lin
+e 78.
+(pdftex.def)             Requested size: 445.54857pt x 151.7729pt.
+ [3
+
+ <./figures//fig_graphical_abstract.png>]
+Underfull \hbox (badness 2418) in paragraph at lines 95--96
 \T1/cmr/m/n/10 from source-limited ar-gu-ments [[]], $\OML/cmm/m/it/10 d[]$ \T1
 /cmr/m/n/10 [[]],
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 75--83
+Underfull \hbox (badness 1231) in paragraph at lines 95--96
 \T1/cmr/m/n/10 CoCrNi shows a more mod-er-ate slope ($\OML/cmm/m/it/10 k[] \OMS
 /cmsy/m/n/10 ^^Y
  []
 
-
-Underfull \vbox (badness 1087) has occurred while \output is active []
-
- [2
+[4
 
 ]
-Underfull \hbox (badness 3250) in paragraph at lines 105--106
-[]\T1/cmr/m/n/10 A best-practices framework---feature lad-der,
+Underfull \hbox (badness 5711) in paragraph at lines 112--113
+[]\T1/cmr/m/n/10 A best-practices frame-work: fea-ture lad-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T1/cmr/m/n/10 descriptor-redundancy au-dit, three-protocol
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 []\T1/cmr/m/n/10 A deployment-aware model-selection ta-ble
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 109--110
+Underfull \hbox (badness 1320) in paragraph at lines 116--117
 \T1/cmr/m/n/10 421 $[]$) while a bounded vari-ant is safe
  []
 
-<figures//fig00_framework_overview.png, id=228, 751.608pt x 381.5856pt>
+[5]
+<figures//fig00_framework_overview.png, id=222, 751.608pt x 381.5856pt>
 File: figures//fig00_framework_overview.png Graphic file (type png)
 <use figures//fig00_framework_overview.png>
 Package pdftex.def Info: figures//fig00_framework_overview.png  used on input l
-ine 120.
+ine 124.
 (pdftex.def)             Requested size: 469.0pt x 238.10611pt.
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `sec:tier4' on page 5 undefined on input line 188.
-
-
-LaTeX Warning: Reference `sec:tier4' on page 5 undefined on input line 188.
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 188--188
+ [6]
+Underfull \hbox (badness 1019) in paragraph at lines 197--197
 []\T1/cmr/m/n/10 Table 2: []The cu-mu-la-tive S1--S5 fea-ture lad-der.
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 197--198
+Underfull \hbox (badness 2698) in paragraph at lines 206--207
 []|\T1/cmr/m/n/8 S1 $\OT1/cmr/m/n/8 +$ \T1/cmr/m/n/8 cu-rated Wen de-scrip-tors
 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--213
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 \T1/cmr/m/it/10 (a) Clas-si-cal and al-ter-na-tive grain-size scal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--213
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 \T1/cmr/m/it/10 ing laws. \T1/cmr/m/n/10 Us-ing grain size and $[][]$
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 208--213
+Underfull \hbox (badness 6708) in paragraph at lines 217--219
 \T1/cmr/m/n/10 only, we com-pare nine scal-ing laws of the
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 208--213
+Underfull \hbox (badness 4954) in paragraph at lines 217--219
 \T1/cmr/m/n/10 form $\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 
 ^^[[] \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 k[]f[]\OT1/cmr/m/n/10 (\OML/cmm/m
 /it/10 d\OT1/cmr/m/n/10 )$ \T1/cmr/m/n/10 with $\OML/cmm/m/it/10 f\OT1/cmr/m/n/
@@ -516,230 +502,194 @@ Underfull \hbox (badness 4954) in paragraph at lines 208--213
  []
 
 
-Overfull \hbox (83.22855pt too wide) in paragraph at lines 208--213
+Overfull \hbox (83.22855pt too wide) in paragraph at lines 217--219
 \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 d[]; d[]; d[]; d[]; []\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 d\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =d; [] d; d[][]d[]; d[][]d[]; d[
 ]\OMS/cmsy/m/n/10 g$ \T1/cmr/m/n/10 [[],
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 208--213
+Underfull \hbox (badness 1424) in paragraph at lines 217--219
 \T1/cmr/m/n/10 in-ter-preted through the Burnham--Anderson and
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 208--213
+Underfull \hbox (badness 1365) in paragraph at lines 217--219
 \T1/cmr/m/n/10 par-i-son uses MCMC-sampled pos-te-ri-ors (PyMC)
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 208--213
+Underfull \hbox (badness 3343) in paragraph at lines 217--219
 \T1/cmr/m/n/10 scored by Pareto-smoothed importance-sampling
  []
 
 
-Underfull \vbox (badness 3291) has occurred while \output is active []
-
- [5 <./figures//fig00_framework_overview.png>]
-Underfull \hbox (badness 1052) in paragraph at lines 214--219
+Underfull \hbox (badness 1052) in paragraph at lines 220--222
 \OML/cmm/m/it/10 ^^[[]\OT1/cmr/m/n/10 ([]) + \OML/cmm/m/it/10 k\OT1/cmr/m/n/10 
 ([]) \OML/cmm/m/it/10 d[]$ \T1/cmr/m/n/10 span-ning composition-
  []
 
-[6]
-Underfull \hbox (badness 3058) in paragraph at lines 252--253
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figures//fig00_framework_overview.png>] [8]
+Underfull \hbox (badness 3058) in paragraph at lines 244--245
 []\T1/cmr/bx/n/10 Leave-one-out (LOO)\T1/cmr/m/n/10 : hold out one al-
  []
 
-[7]
-<figures//fig01_hall_petch.png, id=326, 1156.32pt x 505.89pt>
+[9]
+<figures//fig01_hall_petch.png, id=320, 1004.553pt x 425.30894pt>
 File: figures//fig01_hall_petch.png Graphic file (type png)
 <use figures//fig01_hall_petch.png>
-Package pdftex.def Info: figures//fig01_hall_petch.png  used on input line 286.
+Package pdftex.def Info: figures//fig01_hall_petch.png  used on input line 275.
 
-(pdftex.def)             Requested size: 469.0pt x 205.18536pt.
- [8]
-Underfull \vbox (badness 2359) has occurred while \output is active []
+(pdftex.def)             Requested size: 469.0pt x 198.56485pt.
 
- [9 <./figures//fig01_hall_petch.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `sec:tier5' on page 10 undefined on input line 317.
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1024) in paragraph at lines 315--318
+ [11 <./figures//fig01_hall_petch.png>]
+Underfull \hbox (badness 1024) in paragraph at lines 294--295
 \OML/cmm/m/it/10 d[]$\T1/cmr/m/n/10 ) takes rank #1 in the $[][]$-augmented
  []
 
 
-Overfull \hbox (46.31476pt too wide) in paragraph at lines 329--343
+Overfull \hbox (46.31476pt too wide) in paragraph at lines 304--318
  [][] 
  []
 
-<figures//fig_misfit_scatter.png, id=352, 913.4125pt x 692.5875pt>
+<figures//fig_misfit_scatter.png, id=344, 913.4125pt x 692.5875pt>
 File: figures//fig_misfit_scatter.png Graphic file (type png)
 <use figures//fig_misfit_scatter.png>
-Package pdftex.def Info: figures//fig_misfit_scatter.png  used on input line 34
-7.
+Package pdftex.def Info: figures//fig_misfit_scatter.png  used on input line 32
+2.
 (pdftex.def)             Requested size: 229.5pt x 174.01302pt.
-<figures//fig_comp_hp_models_ab.png, id=353, 2132.96875pt x 1197.47375pt>
+<figures//fig_comp_hp_models_ab.png, id=345, 2132.96875pt x 1197.47375pt>
 File: figures//fig_comp_hp_models_ab.png Graphic file (type png)
 <use figures//fig_comp_hp_models_ab.png>
 Package pdftex.def Info: figures//fig_comp_hp_models_ab.png  used on input line
- 354.
+ 329.
 (pdftex.def)             Requested size: 469.0pt x 263.29886pt.
 
-Underfull \hbox (badness 1264) in paragraph at lines 359--359
-[]\T1/cmr/bx/n/12 Tier 4 --- non-linear flex-i-bil-ity
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10]
-<figures//fair_comparison_LOBO_heatmap.png, id=362, 1148.1294pt x 494.8086pt>
+ [12 <./figures//fig_misfit_scatter.png>]
+<figures//fair_comparison_LOBO_heatmap.png, id=354, 1148.1294pt x 494.8086pt>
 File: figures//fair_comparison_LOBO_heatmap.png Graphic file (type png)
 <use figures//fair_comparison_LOBO_heatmap.png>
 Package pdftex.def Info: figures//fair_comparison_LOBO_heatmap.png  used on inp
-ut line 375.
+ut line 343.
 (pdftex.def)             Requested size: 229.5pt x 98.9071pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `sec:tier3' on page 11 undefined on input line 393.
-
-
-Overfull \hbox (9.70804pt too wide) detected at line 408
+ [13 <./figures//fig_comp_hp_models_ab.png> <./figures//fair_comparison_LOBO_he
+atmap.png>]
+Overfull \hbox (9.70804pt too wide) detected at line 370
 [][]\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = 4806 [] + 9187 [] + 6111 (\OML/cmm
 /m/it/10 ^^[[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 ^^H[]) \OMS/cmsy/m/n/10 ^^@
  \OT1/cmr/m/n/10 110\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ;
  []
 
-[11 <./figures//fig_misfit_scatter.png>]
-Underfull \hbox (badness 1308) in paragraph at lines 417--422
+
+Underfull \hbox (badness 1308) in paragraph at lines 378--380
 \T1/cmr/m/n/10 with three fit-ted constants---survives re-fit cross-
  []
 
-[12 <./figures//fig_comp_hp_models_ab.png>]
-<figures//fig08_pysr_pareto.png, id=380, 722.7pt x 433.62pt>
+<figures//fig08_pysr_pareto.png, id=365, 722.7pt x 433.62pt>
 File: figures//fig08_pysr_pareto.png Graphic file (type png)
 <use figures//fig08_pysr_pareto.png>
-Package pdftex.def Info: figures//fig08_pysr_pareto.png  used on input line 425
+Package pdftex.def Info: figures//fig08_pysr_pareto.png  used on input line 383
 .
 (pdftex.def)             Requested size: 229.5pt x 137.69597pt.
-<figures//fig_external_ab.png, id=383, 2573.615pt x 1198.4775pt>
+<figures//fig_external_ab.png, id=368, 1076.823pt x 469.0323pt>
 File: figures//fig_external_ab.png Graphic file (type png)
 <use figures//fig_external_ab.png>
-Package pdftex.def Info: figures//fig_external_ab.png  used on input line 432.
-(pdftex.def)             Requested size: 469.0pt x 218.38658pt.
-
+Package pdftex.def Info: figures//fig_external_ab.png  used on input line 390.
+(pdftex.def)             Requested size: 469.0pt x 204.2779pt.
+[14]
 Underfull \vbox (badness 4108) has occurred while \output is active []
 
- [13 <./figures//fair_comparison_LOBO_heatmap.png> <./figures//fig08_pysr_paret
-o.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 454--454
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []\T1/cmr/bx/n/12 Hardness--strength cor-re-spon-
  []
 
-[14 <./figures//fig_external_ab.png>]
-<figures//fig09_tabor_relation.png, id=421, 857.1222pt x 712.5822pt>
+[15 <./figures//fig08_pysr_pareto.png>]
+<figures//fig09_tabor_relation.png, id=408, 1004.553pt x 859.2903pt>
 File: figures//fig09_tabor_relation.png Graphic file (type png)
 <use figures//fig09_tabor_relation.png>
 Package pdftex.def Info: figures//fig09_tabor_relation.png  used on input line 
-469.
-(pdftex.def)             Requested size: 469.0pt x 389.92076pt.
+413.
+(pdftex.def)             Requested size: 469.0pt x 401.17859pt.
 
-Underfull \hbox (badness 2285) in paragraph at lines 474--474
+Underfull \hbox (badness 2285) in paragraph at lines 418--418
 []\T1/cmr/bx/n/12 Deployment-aware model se-lec-
  []
 
 
-Overfull \hbox (47.43436pt too wide) in paragraph at lines 488--506
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (47.43436pt too wide) in paragraph at lines 429--447
  [][] 
  []
 
 
-Overfull \hbox (11.30151pt too wide) in paragraph at lines 522--534
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./figures//fig_external_ab.png>] [17 <./figures//fig09_tabor_relation.png
+>]
+Overfull \hbox (11.30151pt too wide) in paragraph at lines 460--472
  [][] 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
-[]\T1/cmr/bx/n/12 Four fail-ure modes, four
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 495--496
+\T1/cmr/m/n/10 Sec-tion S5) rank composition$\OMS/cmsy/m/n/10 ^^B$\T1/cmr/m/n/1
+0 grain-size in-ter-ac-
+ []
+
+[19] [20]
+Underfull \hbox (badness 1297) in paragraph at lines 541--542
+\T1/cmr/m/n/10 mod-els in ev-ery de-ploy-ment regime: for YS a
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5756) has occurred while \output is active []
 
- [16]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 565.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 565.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 565.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 565.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 565.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 565.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 565.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-Underfull \hbox (badness 1490) in paragraph at lines 624--627
-[]\T1/cmr/m/n/10 The demon-strated pay-off runs in both di-rec-
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 624--627
-\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 765$ \T1/cmr/m/n/10 and LOBO
- $\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 668
-$\T1/cmr/m/n/10 , the Bayesian
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-66.
+ [21]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
+64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 5771) in paragraph at lines 663--668
+Underfull \hbox (badness 5771) in paragraph at lines 564--565
 \T1/cmr/m/n/10 All anal-y-sis code, de-rived data, and figure-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 663--668
-\T1/cmr/m/n/10 generation scripts are avail-able in the com-pan-
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+\T1/cmr/m/n/10 generation scripts are avail-able in the
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 663--668
-\T1/cmr/m/n/10 ion repos-i-tory [TODO(submission): repos-i-tory
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+\T1/cmr/m/n/10 com-pan-ion repos-i-tory [TODO(submission):
  []
 
-(./main.bbl [19]
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+\T1/cmr/m/n/10 https://github.com/mrinalinimulukutla/Hall-Petch-
+ []
+
+(./main.bbl
 Underfull \hbox (badness 2205) in paragraph at lines 40--51
 \T1/cmr/m/n/10 Voigt, Lind-sey Kuet-tner, Bran-den Kappes,
  []
@@ -761,7 +711,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--51
 ,
  []
 
-
+[22]
 Underfull \hbox (badness 1057) in paragraph at lines 53--61
 \T1/cmr/m/n/10 Hast-ings, Wenle Xu, Daniel Salas, Joy-deep
  []
@@ -781,12 +731,12 @@ Underfull \hbox (badness 1173) in paragraph at lines 96--101
 []\T1/cmr/m/n/10 S. Yoshida, T. Bhat-tachar-jee, Y. Bai, and
  []
 
-[20]
+
 Underfull \hbox (badness 3302) in paragraph at lines 120--125
 \T1/cmr/m/n/10 tachar-jee, Yu Bai, Aki-nobu Shi-bata, and
  []
 
-
+[23]
 Underfull \hbox (badness 1014) in paragraph at lines 160--164
 []\T1/cmr/m/n/10 Franco Moitzi, Lorenz Ro-maner, An-drei V.
  []
@@ -806,7 +756,7 @@ Underfull \hbox (badness 2119) in paragraph at lines 201--206
 []\T1/cmr/m/n/10 Cheng Wen, Changxin Wang, Yan Zhang,
  []
 
-[21]
+
 Underfull \hbox (badness 1205) in paragraph at lines 208--211
 []\T1/cmr/m/n/10 W. Huang, P. Mar-tin, and H. L. Zhuang.
  []
@@ -821,57 +771,43 @@ Underfull \hbox (badness 4036) in paragraph at lines 240--244
 []\T1/cmr/m/n/10 Xianglin Liu, Ji-axin Zhang, and Zon-grui
  []
 
-[22]
-Underfull \hbox (badness 2837) in paragraph at lines 326--331
+[24]
+Underfull \hbox (badness 2837) in paragraph at lines 317--322
 \T1/cmr/m/n/10 Bryce Meredig, and Arthur Mar.  High-
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 346--351
+Underfull \hbox (badness 1314) in paragraph at lines 337--342
 \T1/cmr/m/n/10 en-ing due to grain bound-aries and an-neal-
  []
 
-
-Underfull \hbox (badness 1077) in paragraph at lines 400--404
+[25]
+Underfull \hbox (badness 1077) in paragraph at lines 391--395
 []\T1/cmr/m/n/10 Yuntian Zhu and Xi-aolei Wu.  Per-spec-tive
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 417--422
+Underfull \hbox (badness 1281) in paragraph at lines 408--413
 []\T1/cmr/m/n/10 G. Bracq, M. Laurent-Brocq, C. Var-venne,
  []
 
-[23]) [24
-
-] [25 <./figures//fig09_tabor_relation.png>] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: E5D25F0BD559DFB84D8FD06C5709D6DF;6054
-(rerunfilecheck)             After:  8515E121F3751A9B77B28A5FC07C0B8D;6054.
+) [26] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 79F3BCEDFDA45358426AA9C97F17F7F0;4762.
  ) 
 Here is how much of TeX's memory you used:
- 10803 strings out of 480247
- 165335 string characters out of 5896152
- 466827 words of memory out of 5000000
+ 10804 strings out of 480247
+ 165516 string characters out of 5896152
+ 465811 words of memory out of 5000000
  28414 multiletter control sequences out of 15000+600000
- 490385 words of font info for 78 fonts, out of 8000000 for 9000
+ 490388 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,14n,63p,2368b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,63p,2429b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
  </sessions/epic-beautiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ectt1000.600pk> </sessions/epic-beautiful-pascal/.texlive2021/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </sessions/epic-beautiful-pascal/.
-texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </sessions/ep
-ic-beautiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000
+/fonts/pk/ljfour/jknappen/ec/ecbx0700.600pk> </sessions/epic-beautiful-pascal/.
+texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </sessions/ep
+ic-beautiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800
 .600pk> </sessions/epic-beautiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecrm0500.600pk> </sessions/epic-beautiful-pascal/.texlive2021/texm
 f-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </sessions/epic-beautiful-pas
@@ -889,24 +825,23 @@ utiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk
 > </sessions/epic-beautiful-pascal/.texlive2021/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/ecbx0900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (25 pages, 1579804 bytes).
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (26 pages, 1862070 bytes).
 PDF statistics:
- 1222 PDF objects out of 1440 (max. 8388607)
- 573 compressed objects within 6 object streams
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 559 compressed objects within 6 object streams
  152 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

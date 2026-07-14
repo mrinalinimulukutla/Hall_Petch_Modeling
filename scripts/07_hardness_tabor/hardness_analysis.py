@@ -33,8 +33,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) 
 from _config import REPO_ROOT, DATA_DIR, RAW_DATA_DIR, RESULTS_DIR, PLOTS_DIR, PAPER_DIR, PAPER_FIG_DIR
 BASE = str(REPO_ROOT)
 PLOT_DIR = f'{PLOTS_DIR}'
-BATCH_COLORS = {'BBA': '#E74C3C', 'BBB': '#3498DB', 'BBC': '#2ECC71',
-                'CBA': '#9B59B6', 'CBB': '#F39C12', 'CBC': '#1ABC9C'}
+BATCH_COLORS = {'BBA': '#D55E00', 'BBB': '#0072B2', 'BBC': '#009E73',
+                'CBA': '#CC79A7', 'CBB': '#E69F00', 'CBC': '#56B4E9'}
 
 plt.rcParams.update({'font.size': 11, 'font.family': 'serif'})
 
@@ -480,7 +480,7 @@ ax.legend(fontsize=8, ncol=2)
 
 # (b) ΔBIC bar chart
 ax = axes[0, 1]
-colors = ['#2ECC71' if db < 2 else '#F39C12' if db < 6 else '#E74C3C' for db in scale_df['ΔBIC']]
+colors = ['#009E73' if db < 2 else '#E69F00' if db < 6 else '#D55E00' for db in scale_df['ΔBIC']]
 bars = ax.barh(range(len(scale_df)), scale_df['ΔBIC'].values, color=colors,
                edgecolor='k', linewidth=0.5)
 ax.set_yticks(range(len(scale_df)))
@@ -653,7 +653,7 @@ fig, axes = plt.subplots(1, 3, figsize=(16, 5))
 ax = axes[0]
 names_short = [n.split(':')[0] for n in models_spec.keys()]
 loo_r2s = [ols_results[n]['r2_loo'] for n in models_spec.keys()]
-group_colors = {'A: H₀ only': '#3498DB', 'B: k_H only': '#E74C3C', 'C: Both': '#2ECC71'}
+group_colors = {'A: H₀ only': '#0072B2', 'B: k_H only': '#D55E00', 'C: Both': '#009E73'}
 colors = [group_colors.get(models_spec[n]['group'], 'gray') for n in models_spec.keys()]
 ax.barh(range(len(names_short)), loo_r2s, color=colors, edgecolor='k', linewidth=0.5)
 ax.set_yticks(range(len(names_short)))
@@ -731,7 +731,7 @@ elem_r_kH = []
 for i, elem in enumerate(elem_short):
     r, p = stats.pearsonr(X_elem_hv[:, i], kH_eff)
     elem_r_kH.append(r)
-colors_kH = ['#E74C3C' if abs(r) > 0.2 else '#3498DB' for r in elem_r_kH]
+colors_kH = ['#D55E00' if abs(r) > 0.2 else '#0072B2' for r in elem_r_kH]
 ax.bar(range(7), elem_r_kH, color=colors_kH, edgecolor='k', linewidth=0.5)
 ax.set_xticks(range(7))
 ax.set_xticklabels(elem_short)
@@ -837,7 +837,7 @@ ax.set_title(f'(b) HP Residuals: HV vs YS (r = {r_resid:.3f})')
 ax = axes[1, 0]
 lit_names = list(lit_kH_MPa.keys())
 lit_vals = list(lit_kH_MPa.values())
-colors_lit = ['steelblue'] * (len(lit_names) - 1) + ['#E74C3C']
+colors_lit = ['steelblue'] * (len(lit_names) - 1) + ['#D55E00']
 ax.barh(range(len(lit_names)), lit_vals, color=colors_lit, edgecolor='k', linewidth=0.5)
 ax.set_yticks(range(len(lit_names)))
 ax.set_yticklabels(lit_names, fontsize=9)
@@ -980,17 +980,17 @@ ax.scatter(ys_both, hv_both, c='lightgray', s=30, edgecolors='gray', linewidths=
 # Top 10 by YS
 top10_ys_mask = df_both.index.isin(top10_ys)
 ax.scatter(df_both.loc[top10_ys_mask, 'YS'], df_both.loc[top10_ys_mask, 'HV'],
-           c='#E74C3C', s=70, edgecolors='k', linewidths=0.5, marker='s',
+           c='#D55E00', s=70, edgecolors='k', linewidths=0.5, marker='s',
            zorder=3, label='Top 10 by YS')
 # Top 10 by HV
 top10_hv_mask = df_both.index.isin(top10_hv)
 ax.scatter(df_both.loc[top10_hv_mask, 'YS'], df_both.loc[top10_hv_mask, 'HV'],
-           c='#3498DB', s=70, edgecolors='k', linewidths=0.5, marker='^',
+           c='#0072B2', s=70, edgecolors='k', linewidths=0.5, marker='^',
            zorder=3, label='Top 10 by HV')
 # Overlap (both)
 overlap_mask = df_both.index.isin(top10_hv & top10_ys)
 ax.scatter(df_both.loc[overlap_mask, 'YS'], df_both.loc[overlap_mask, 'HV'],
-           c='#2ECC71', s=90, edgecolors='k', linewidths=0.8, marker='D',
+           c='#009E73', s=90, edgecolors='k', linewidths=0.8, marker='D',
            zorder=4, label=f'Both top 10 ({overlap_10}/10)')
 ax.set_xlabel('Yield Strength (MPa)')
 ax.set_ylabel('HV (kgf/mm²)')

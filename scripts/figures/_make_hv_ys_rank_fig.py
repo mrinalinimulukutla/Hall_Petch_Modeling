@@ -14,8 +14,8 @@ BASE = str(REPO_ROOT)
 OUT  = f'{PAPER_FIG_DIR}/fig_hv_ys_rank.png'
 
 BATCH_COLORS = {
-    'BBA': '#E74C3C', 'BBB': '#F39C12', 'BBC': '#27AE60',
-    'CBA': '#3498DB', 'CBB': '#8E44AD', 'CBC': '#16A085',
+    'BBA': '#D55E00', 'BBB': '#E69F00', 'BBC': '#27AE60',
+    'CBA': '#0072B2', 'CBB': '#8E44AD', 'CBC': '#16A085',
 }
 
 df = pd.read_csv(f'{DATA_DIR}/data_with_descriptors.csv')

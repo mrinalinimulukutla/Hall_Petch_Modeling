@@ -332,8 +332,8 @@ print("GENERATING VLC PLOTS")
 print("=" * 70)
 
 fig, axes = plt.subplots(2, 2, figsize=(16, 14))
-batch_colors = {'BBA': '#E74C3C', 'BBB': '#3498DB', 'BBC': '#2ECC71',
-                'CBA': '#9B59B6', 'CBB': '#F39C12', 'CBC': '#1ABC9C'}
+batch_colors = {'BBA': '#D55E00', 'BBB': '#0072B2', 'BBC': '#009E73',
+                'CBA': '#CC79A7', 'CBB': '#E69F00', 'CBC': '#56B4E9'}
 
 # (a) VLC SSS vs Experimental YS
 ax = axes[0, 0]

@@ -45,8 +45,8 @@ from _config import REPO_ROOT, DATA_DIR, RAW_DATA_DIR, RESULTS_DIR, PLOTS_DIR, P
 BASE = str(REPO_ROOT)
 PLOT_DIR = f'{PLOTS_DIR}'
 ELEMENTS = ['Al', 'Co', 'Cr', 'Cu', 'Fe', 'Mn', 'Ni', 'V']
-BATCH_COLORS = {'BBA': '#E74C3C', 'BBB': '#3498DB', 'BBC': '#2ECC71',
-                'CBA': '#9B59B6', 'CBB': '#F39C12', 'CBC': '#1ABC9C'}
+BATCH_COLORS = {'BBA': '#D55E00', 'BBB': '#0072B2', 'BBC': '#009E73',
+                'CBA': '#CC79A7', 'CBB': '#E69F00', 'CBC': '#56B4E9'}
 
 t0_global = time.time()
 
@@ -1037,7 +1037,7 @@ ax.set_title('Grain-Size Scaling Comparison', fontsize=13)
 
 # Plot top 4 fits
 top4 = scale_df.head(4)
-colors_top = ['#E74C3C', '#3498DB', '#2ECC71', '#9B59B6']
+colors_top = ['#D55E00', '#0072B2', '#009E73', '#CC79A7']
 for i, (_, r) in enumerate(top4.iterrows()):
     name = r['Scaling'].split('[')[0].strip()
     f_plot = None
@@ -1067,7 +1067,7 @@ scale_df_plot = scale_df.copy()
 min_bic_scale = scale_df_plot['BIC'].min()
 scale_df_plot['ΔBIC'] = scale_df_plot['BIC'] - min_bic_scale
 bars = ax.barh(range(len(scale_df_plot)), scale_df_plot['ΔBIC'].values,
-               color=['#2ECC71' if v < 2 else '#F39C12' if v < 6 else '#E74C3C'
+               color=['#009E73' if v < 2 else '#E69F00' if v < 6 else '#D55E00'
                       for v in scale_df_plot['ΔBIC'].values])
 ax.set_yticks(range(len(scale_df_plot)))
 ax.set_yticklabels([s.split('[')[0].strip() for s in scale_df_plot['Scaling'].values], fontsize=9)
@@ -1083,8 +1083,8 @@ ax.invert_yaxis()
 ax = axes[2]
 valid_plot = res_df[res_df['LOO_R2'].notna() & (res_df['LOO_R2'] > -1) &
                      res_df['BIC'].notna()].copy()
-cat_colors = {'linear': '#3498DB', 'tree': '#E74C3C', 'kernel': '#2ECC71',
-              'ensemble': '#9B59B6', 'baseline': '#95A5A6'}
+cat_colors = {'linear': '#0072B2', 'tree': '#D55E00', 'kernel': '#009E73',
+              'ensemble': '#CC79A7', 'baseline': '#95A5A6'}
 for _, r in valid_plot.iterrows():
     m = r['Model']
     if m in ['OLS', 'OLS (alt-GS)', 'Ridge', 'ElasticNet']:
@@ -1128,13 +1128,13 @@ colors_bar = []
 for _, r in plot_df.iterrows():
     m = r['Model']
     if m in ['OLS', 'OLS (alt-GS)', 'Ridge', 'ElasticNet']:
-        colors_bar.append('#3498DB')
+        colors_bar.append('#0072B2')
     elif any(t in m for t in ['XGBoost', 'CatBoost', 'LightGBM', 'RF', 'Random Forest']):
-        colors_bar.append('#E74C3C')
+        colors_bar.append('#D55E00')
     elif any(t in m for t in ['GPR', 'SVR', 'KRR']):
-        colors_bar.append('#2ECC71')
+        colors_bar.append('#009E73')
     elif 'Ensemble' in m or 'Stacking' in m:
-        colors_bar.append('#9B59B6')
+        colors_bar.append('#CC79A7')
     else:
         colors_bar.append('#95A5A6')
 
@@ -1161,13 +1161,13 @@ valid_lobo = res_df[res_df['LOO_R2'].notna() & res_df['LOBO_R2'].notna() &
 for _, r in valid_lobo.iterrows():
     m = r['Model']
     if m in ['OLS', 'OLS (alt-GS)', 'Ridge', 'ElasticNet']:
-        c = '#3498DB'
+        c = '#0072B2'
     elif any(t in m for t in ['XGBoost', 'CatBoost', 'LightGBM', 'RF', 'Random Forest']):
-        c = '#E74C3C'
+        c = '#D55E00'
     elif any(t in m for t in ['GPR', 'SVR', 'KRR']):
-        c = '#2ECC71'
+        c = '#009E73'
     elif 'Ensemble' in m or 'Stacking' in m:
-        c = '#9B59B6'
+        c = '#CC79A7'
     else:
         c = '#95A5A6'
     ax.scatter(r['LOO_R2'], r['LOBO_R2'], c=c, s=100, edgecolors='k',
